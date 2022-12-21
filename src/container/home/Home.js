@@ -100,14 +100,14 @@ function Home() {
                   <div className="hidetable">
                     <h6
                       onClick={() => setView('dogs')}
-                      style={{ color: view === 'dogs' ? 'blue' : '' }}
+                      style={{ color: view === 'dogs' ? 'gray' : '' }}
                     >
-                      DOGS{' '}
+                      DOGS
                     </h6>
-
+                    |
                     <h6
                       onClick={() => setView('cats')}
-                      style={{ color: view === 'cats' ? 'blue' : '' }}
+                      style={{ color: view === 'cats' ? 'gray' : '' }}
                     >
                       CATS
                     </h6>
