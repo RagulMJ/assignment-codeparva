@@ -1,0 +1,174 @@
+
+.main{
+    background-color: #ecf9ff;
+}
+.petimg{
+    display: flex;
+    width: 350px;
+    height: 204px;
+    margin: auto;    
+}
+.btn{
+    background-color: #FF6584;
+    margin-right: 10px;
+    color: white;
+}
+.btn:hover{
+    background-color: #FF6584;
+}
+
+.head{
+    text-align: end;
+    
+}
+.respra1{
+    text-align: end;
+}
+.b1{
+    color: white;
+}
+.b{
+    text-align: end;
+    color:white;
+}
+.lastimg{
+    width: 350px;
+    height: 204px;
+    margin: auto;    
+
+}
+.contents{
+    margin: auto;
+    padding: 10px;
+}
+.closebutton{
+    text-align: end;
+    cursor: pointer;
+    font-size: medium;
+    background-color: #ecf9ff;
+}
+.fromfield{
+    background-color: #ecf9ff;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.submitbutton{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+.star{
+    color: red;
+}
+.error{
+    font-size: small;
+    color: red;
+}
+.headtitle{
+    font-weight: bolder;
+}
+.hidetable{
+    display:flex;
+    margin: auto;
+    padding: 10px;
+
+}
+.hidetable h6{
+    cursor: pointer;
+    font-weight: bolder;  
+    margin:5px;
+}
+.line{
+    font-size: 40px;
+    background-color: blue;
+}
+.hideimage{
+    display: none;
+}
+
+@media (max-width:456px) {
+   .petimg{
+    display: none;
+   }
+   .hideimage{
+    display: block;
+    width: 286px;
+    height: 138px;
+} 
+.restitle{
+    text-align: center;
+    font-size: 19px;
+    margin: auto;
+}
+.btn{
+    margin: auto;
+    width: 290px;
+    margin: 10px;
+}
+.respra{
+    text-align: center;
+    margin: auto;
+}
+.head{
+    text-align: center;
+    font-size: 19px;
+    margin: auto;
+}
+.respra1{
+    text-align:center;
+    margin: auto;
+}
+.lastimg{
+    width: 290px;
+    margin: 10px;
+}
+
+}
+
+@media (max-width:361px) {
+
+    .petimg{
+        display: none;
+       }
+       .hideimage{
+        display: block;
+        width: 242px;
+        height: 109px;
+    } 
+    .restitle{
+        text-align: center;
+        font-size: 16px;
+        margin: auto;
+    }
+    .btn{
+        margin: auto;
+        width: 221px;
+        margin: 10px;
+    }
+    .respra{
+        text-align: center;
+        margin: auto;
+        font-size: 13px;
+    }
+    .head{
+        text-align: center;
+        font-size: 15px;
+        margin: auto;
+    }
+    .respra1{
+        text-align:center;
+        font-size: 13px;
+        margin: auto;
+    }
+    .lastimg{
+        width: 213px;
+        height: 140px;
+        margin: 10px;
+    }
+    .contents{
+        text-align: center;
+        font-size: 15px;
+        margin: auto;
+    }
+}
