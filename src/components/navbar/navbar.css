@@ -22,6 +22,16 @@
   cursor: pointer;
 }
 
+.t1::after {
+  content: '';
+  position: absolute;
+  background-color: black;
+  height: 3px;
+  width: 0;
+  bottom: -10px;
+  left: 0;
+  transition: 0.2s;
+}
 .t1:hover {
   color: black;
   font-weight: bold;

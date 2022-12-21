@@ -66,12 +66,12 @@ function Home() {
             <div className="col ">
               <h2 className="restitle">Welcome to the Animal Shelter !</h2>
               <br />
-              <p className="respra">
+              <p className="pragra">
                 Glad that you care for the animals so much.We make sure that
                 you'll not repent your decision of adopting your favorite pet !!{' '}
               </p>
               <div className="col ">
-                <img src={mainImg} alt="PetImage" className="hideimage" />
+                <img src={mainImg} alt="Pet_Image" className="hideimage" />
               </div>
               <div className="b1">
                 <button
@@ -241,7 +241,7 @@ function Home() {
               </Modal>
             </div>
             <div className="col ">
-              <img src={mainImg} alt="PetImage" className="petimg" />
+              <img src={mainImg} alt="Pet_Image" className="petimg" />
             </div>
           </div>
         </div>
